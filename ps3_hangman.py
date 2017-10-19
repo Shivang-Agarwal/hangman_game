@@ -1,18 +1,9 @@
-# 6.00 Problem Set 3
-# 
 # Hangman game
-#
-
-# -----------------------------------
-# Helper code
-# You don't need to understand this helper code,
-# but you will have to know how to use the functions
-# (so be sure to read the docstrings!)
 
 import random
 import string
 
-WORDLIST_FILENAME = "C:/Users/avs/6.00.1x Files/HangMan/words.txt"
+WORDLIST_FILENAME = "give the address to word file" # Change it
 
 def loadWords():
     """
@@ -111,7 +102,7 @@ def hangman(secretWord):
 
     Follows the other limitations detailed in the problem write-up.
     '''
-    # FILL IN YOUR CODE HERE...
+
     import string
     print 'Welcome to the game, of Hangman!'
     print 'I am thinking of a word that is ' + str(len(secretWord)) + ' letters long.'
