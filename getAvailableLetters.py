@@ -5,7 +5,6 @@ def getAvailableLetters(lettersGuessed):
     returns: string, comprised of letters that represents what letters have not
       yet been guessed.
     '''
-    # FILL IN YOUR CODE HERE...
     import string
     List = list(string.ascii_lowercase)
     for i in range(len(lettersGuessed)):
